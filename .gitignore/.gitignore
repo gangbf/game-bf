@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+File "gemailhack.py", line 74, in 
+login()
+File "gemailhack.py", line 58, in login
+server.login(user_name, password)
+File "/usr/lib/python2.7/smtplib.py", line 611, in login
+AUTH_PLAIN + " " + encode_plain(user, password))
+File "/usr/lib/python2.7/smtplib.py", line 395, in docmd
+return self.getreply()
+File "/usr/lib/python2.7/smtplib.py", line 369, in getreply
+raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+[+] Brute Force Complete [✓] [+]
